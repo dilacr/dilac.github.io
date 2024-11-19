@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Web Sitem</title>
+    <style>
+        /* Sayfanın genel stilini ayarlıyoruz */
+        body {
+            background-color: red; /* Arka planı kırmızı yapıyoruz */
+            color: white; /* Yazı rengini beyaz yapıyoruz */
+            font-family: Arial, sans-serif; /* Yazı tipini belirliyoruz */
+            margin: 0; /* Sayfa kenar boşluklarını sıfırlıyoruz */
+            display: flex; /* Flexbox kullanarak içerikleri hizalamayı kolaylaştırıyoruz */
+            justify-content: center; /* Sayfanın yatay ortalanması */
+            align-items: center; /* Sayfanın dikey ortalanması */
+            height: 100vh; /* Sayfa yüksekliğini tüm ekran yüksekliği kadar yapıyoruz */
+        }
+
+        /* Sayfa içeriği olan alan */
+        .content {
+            text-align: center; /* Yazıları ortalıyoruz */
+            max-width: 600px; /* İçeriğin genişliğini sınırlıyoruz */
+            padding: 20px; /* İçeriğe biraz boşluk ekliyoruz */
+            background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam bir arka plan ekliyoruz */
+            border-radius: 10px; /* Kenarları yuvarlatıyoruz */
+        }
+
+        h1 {
+            font-size: 3em; /* Başlık boyutunu çok büyütüyoruz */
+        }
+
+        nav ul {
+            list-style: none; /* Liste işaretlerini kaldırıyoruz */
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 10px 0; /* Liste elemanlarına aralar ekliyoruz */
+        }
+
+        nav a {
+            color: white; /* Linklerin rengini beyaz yapıyoruz */
+            text-decoration: none; /* Alt çizgiyi kaldırıyoruz */
+            font-size: 1.2em; /* Link yazı boyutunu büyütüyoruz */
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Hover (üzerine gelindiğinde) alt çizgi ekliyoruz */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>COME BACK SOON...</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home Tab</a></li>
+                <li><a href="#">Connection</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <h2>About</h2>
+            <p>Copyright © All Rights Reserved.</p>
+        </section>
+    </div>
+</body>
+</html>
